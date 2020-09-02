@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FPGA/UartLIGIA/uart_rx.xst" -ofn "C:/Users/ferna/Documents/FPGA/UartLIGIA/uart_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-5 uart_rx.ngc uart_rx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o uart_rx_map.ncd uart_rx.ngd uart_rx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_rx_map.ncd uart_rx.ncd uart_rx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml uart_rx.twx uart_rx.ncd -o uart_rx.twr uart_rx.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/ferna/Downloads/elbertv2 - Copy.ucf" -p xc3s50a-tq144-5 uart_rx.ngc uart_rx.ngd  
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FPGA/UartLIGIA/uart_rx.xst" -ofn "C:/Users/ferna/Documents/FPGA/UartLIGIA/uart_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/ferna/Downloads/elbertv2 - Copy.ucf" -p xc3s50a-tq144-5 uart_rx.ngc uart_rx.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-5 uart_rx.ngc uart_rx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o uart_rx_map.ncd uart_rx.ngd uart_rx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_rx_map.ncd uart_rx.ncd uart_rx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml uart_rx.twx uart_rx.ncd -o uart_rx.twr uart_rx.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-5 uart_rx.ngc uart_rx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o uart_rx_map.ncd uart_rx.ngd uart_rx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_rx_map.ncd uart_rx.ncd uart_rx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml uart_rx.twx uart_rx.ncd -o uart_rx.twr uart_rx.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-5 uart_rx.ngc uart_rx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o uart_rx_map.ncd uart_rx.ngd uart_rx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_rx_map.ncd uart_rx.ncd uart_rx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml uart_rx.twx uart_rx.ncd -o uart_rx.twr uart_rx.pcf 
+bitgen -intstyle ise -f uart_rx.ut uart_rx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba.ucf -p xc3s50a-tq144-5 uart_rx.ngc uart_rx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o uart_rx_map.ncd uart_rx.ngd uart_rx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_rx_map.ncd uart_rx.ncd uart_rx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml uart_rx.twx uart_rx.ncd -o uart_rx.twr uart_rx.pcf -ucf prueba.ucf 
+bitgen -intstyle ise -f uart_rx.ut uart_rx.ncd 
