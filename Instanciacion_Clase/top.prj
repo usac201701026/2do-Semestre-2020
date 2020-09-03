@@ -1,0 +1,3 @@
+vhdl work "uart_rx.vhd"
+vhdl work "mux.vhd"
+vhdl work "top.vhd"

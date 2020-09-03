@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Sep 03 13:19:46 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "data<0>" LOCATE = SITE "P55" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "P54" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "P51" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "P50" LEVEL 1;
+COMP "data<4>" LOCATE = SITE "P49" LEVEL 1;
+COMP "clk_12" LOCATE = SITE "P129" LEVEL 1;
+COMP "data<5>" LOCATE = SITE "P48" LEVEL 1;
+COMP "data<6>" LOCATE = SITE "P47" LEVEL 1;
+COMP "data<7>" LOCATE = SITE "P46" LEVEL 1;
+COMP "uart_1" LOCATE = SITE "P125" LEVEL 1;
+COMP "uart_2" LOCATE = SITE "P123" LEVEL 1;
+COMP "sel" LOCATE = SITE "P80" LEVEL 1;
+NET "clk_12_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+SCHEMATIC END;
+
