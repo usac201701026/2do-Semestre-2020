@@ -1,0 +1,168 @@
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Diego/Documents/USAC/2016 Segundo Semestre/Electronica 3/Proyecto/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 "ULTRAULTRA.ngc" ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/Ultra_Diego/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
+xst -intstyle ise -ifn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.xst" -ofn "C:/Users/Rob/Desktop/E3/multiplexar/ULTRAULTRA/ULTRAULTRA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ultraultra.ucf -p xc3s50a-tq144-5 ULTRAULTRA.ngc ULTRAULTRA.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o ULTRAULTRA_map.ncd ULTRAULTRA.ngd ULTRAULTRA.pcf 
+par -w -intstyle ise -ol high -t 1 ULTRAULTRA_map.ncd ULTRAULTRA.ncd ULTRAULTRA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ULTRAULTRA.twx ULTRAULTRA.ncd -o ULTRAULTRA.twr ULTRAULTRA.pcf -ucf Ultraultra.ucf 
+bitgen -intstyle ise -f ULTRAULTRA.ut ULTRAULTRA.ncd 
