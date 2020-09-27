@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/xst"
+elaborate
+-ifn VGA_sync.prj
+-ifmt mixed

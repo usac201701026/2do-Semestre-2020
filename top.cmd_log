@@ -1,0 +1,359 @@
+xst -intstyle ise -ifn "C:/Users/Luis/Documents/ISEDigitales/VGA_E6/top.xst" -ofn "C:/Users/Luis/Documents/ISEDigitales/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Luis/Documents/ISEDigitales/VGA_E6/top.xst" -ofn "C:/Users/Luis/Documents/ISEDigitales/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Luis/Documents/ISEDigitales/VGA_E6/top.xst" -ofn "C:/Users/Luis/Documents/ISEDigitales/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/ProyectosISE/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/Jodcp/Desktop/ELECTRONICA6/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.xst" -ofn "C:/Users/baril/Downloads/VGA_DANIEL_INSTANSIACION/VGA_DANIEL_INSTANSIACION/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.xst" -ofn "C:/Users/baril/Documents/PRUEBA_PROYECTO/VGA_MEMORIA_UART(FUNCIONA)/VGA_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/Proyecto_FF_E6_02/ISE_E6/top.xst" -ofn "C:/Users/ferna/Documents/Proyecto_FF_E6_02/ISE_E6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prueba_practica01.ucf -p xc3s50a-tq144-5 top.ngc top.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf prueba_practica01.ucf 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/Proyecto_FF_E6_02/ISE_E6/top.xst" -ofn "C:/Users/ferna/Documents/Proyecto_FF_E6_02/ISE_E6/top.syr" 
